@@ -265,6 +265,114 @@ h1,h2,h3{
     background-color: hsla(322, 100%, 66%, 0.895);
 }
 
+@media (max-width: 1050px){
+    .cabecalho{
+        padding: 60px 30px;
+    }
+
+    .text1 h1{
+        text-align: center;
+        width: 400px;
+    }
+
+    .text1 p{
+        width: 320px;
+        margin-top: 30px;
+    }
+
+    .btn-text1{
+        margin-top: 40px;
+    }
+
+    .container-img1 img{
+        width: 400px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .caixa-container2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    .descricao-caixa p{
+        width: 100%;
+    }
+
+    .container-section1{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 100px 0;
+    }
+
+    .caixa-texto{
+        text-align: center;
+        width: 340px;
+        margin-top: 80px;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-section2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa-texto h2{
+        width: 355px;
+        margin-top: 80px;
+    }
+
+    .text2{
+        margin-top: 200px;  
+    }
+
+    .img-rodape-top{
+        margin-top: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 700px;
+        padding: 0px 30px;
+    }
+
+    .lorem2{
+        width: 280px;
+    }
+
+    .container-sub{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .container-btn-footer{
+        width: 300px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .btn-sub{
+        margin-top: 20px;
+    }
+
+    .social-icons{
+        margin-bottom: 50px;
+    }
+}
+
 
 
 
